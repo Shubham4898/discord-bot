@@ -6,7 +6,7 @@ const {Client} = require('discord.js');
 const client = new Client();
 const pre = "!Join";
 
-client.login('ODIzODQ3OTk3NjE2MDI5Njk2.YFmyPA.onuEObW0itpk6EKLk9mEzWrakfQ');
+client.login('TOKEN');
 
 client.on('message',(message) => {
   console.log(message.content);
